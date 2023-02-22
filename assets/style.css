@@ -49,16 +49,71 @@ nav div{
 }
 
 /* main */
-.container{
-    min-height: 200px;
-    margin-top: 50px;
-}
+ .container{
+    width: 80%;
+    margin: 20px auto;
+} 
 
 .space-between{
     justify-content: space-between;
 }
 
 .basis{
-    flex-basis: calc(100% / 3);
+    flex-basis: 30%;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.card{
+    padding: 10px 15px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 30px;
+}
+
+.card-2, .card-3{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    color: white;
     
+}
+
+.card-2 span:first-child{
+    background-color: red;
+    padding: 5px 5px;
+
+}
+/* .card-3{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background-color: green;
+    color: white;
+    padding: 5px 5px;
+} */
+.card-2 span:nth-child(2), .green{
+    background-color: green;
+    padding: 5px 5px;
+
+}
+
+.basis span:nth-child(5){
+    text-decoration: line-through;
+}
+
+.basis > p{
+    color: gray;
+}
+
+.red{
+    color: red;
 }
