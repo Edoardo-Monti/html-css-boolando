@@ -129,3 +129,17 @@ footer section{
     padding-bottom: 20px;
     line-height: 30px;
 }
+
+/* Prove con hover */
+
+.imagine-hover{
+  display: none;
+}
+
+.img-cont:hover .imagine{
+  display: none;
+}
+
+.img-cont:hover .imagine-hover{
+    display: block;
+  }
