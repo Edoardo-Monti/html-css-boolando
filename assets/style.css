@@ -4,6 +4,50 @@
     box-sizing: border-box;
 }
 
-img{
+/* img{
     display: block;
+} */
+
+.container-80{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;   
+}
+
+header{
+    background-color: orange;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav div{
+    align-items: center;
+    margin: 10px auto;
+ 
+}
+
+.flex-2{
+    align-items: center;
+}
+
+.basis-1, .basis-3{
+    flex-basis: 10%;
+    justify-content: space-between;
+}
+
+.basis-2{
+    flex-basis: 80%;
+    justify-content: center
+}
+
+.basis-1 span{
+    padding: 0 5px;
+}
+
+.basis-3 i{
+    padding: 0 3px;
 }
