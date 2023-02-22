@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-/* img{
-    display: block;
-} */
-
+/* header */
 .container-80{
     width: 80%;
     margin-left: auto;
@@ -36,7 +33,6 @@ nav div{
 
 .basis-1, .basis-3{
     flex-basis: 10%;
-    justify-content: space-between;
 }
 
 .basis-2{
@@ -49,5 +45,20 @@ nav div{
 }
 
 .basis-3 i{
-    padding: 0 3px;
+    padding: 0 5px;
+}
+
+/* main */
+.container{
+    min-height: 200px;
+    margin-top: 50px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.basis{
+    flex-basis: calc(100% / 3);
+    
 }
